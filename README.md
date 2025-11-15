@@ -10,6 +10,7 @@
 3. [Resources](#resources)
 4. [Projects](#projects)
 5. [Tools & Setup](#tools--setup)
+6. [🎓 Complete Mentor Roadmap](#-complete-mentor-roadmap)
 
 ---
 
@@ -278,5 +279,28 @@ MachineLearning/
 ---
 
 **Remember**: Every expert was once a beginner. The journey of 1000 miles begins with a single step. You've got this! 💪
+
+---
+
+## 🎓 Complete Mentor Roadmap
+
+For a comprehensive, expert-level learning roadmap covering all topics in detail, see **[MENTOR_ROADMAP.md](./MENTOR_ROADMAP.md)**.
+
+The mentor roadmap includes:
+- ✅ Complete 12-month curriculum
+- ✅ Weekly learning plans
+- ✅ Project milestones
+- ✅ Expert-level topics
+- ✅ Assessment and progress tracking
+- ✅ Detailed guides for each domain:
+  - [Deep Learning](./04_deep_learning/README.md)
+  - [NLP](./05_nlp/README.md)
+  - [Generative AI](./06_gen_ai/README.md)
+  - [Large Language Models](./07_llm/README.md)
+  - [RAG Systems](./08_rag/README.md)
+
+**Start your journey to becoming an AI/ML expert today!** 🚀
+
+---
 
 **Happy Learning!** 🎓
