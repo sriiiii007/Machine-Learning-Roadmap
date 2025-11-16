@@ -107,7 +107,7 @@ print(zeros)
 ones = np.ones((4,5))
 print(ones)
 
-fullMatrix = np.full((3,3),5)
+fullMatrix = np.full((3,3),2)
 print(fullMatrix)
 
 identity = np.eye(5)
@@ -116,4 +116,44 @@ print(identity)
 random_arr = np.random.rand(5,5)
 print(random_arr.shape)
 print(random_arr)
-print(random_arr)
+
+print("Creating arrays with ranges :")
+arange = np.arange(0,20,2)
+linspace = np.linspace(0,10,10)
+
+print(arange)    
+print(linspace)
+
+###Array operations
+
+array1 = np.array([5,6,7,9])
+array2 = np.array([11,12,13,14])
+print(f" Addition of arrays : {array1+array2}")
+print(f" Subtraction of arrays : {array1-array2}")
+print(f" Multiplication of arrays : {array1*array2}")
+print(f" Division of arrays : {array1/array2}")
+print(f"Power of arrays: {array1 ** array2}")
+print(f"Square root of arrays:{np.sqrt(array2)}")
+print(f"Sine of the array: {np.sin(array1)}")
+
+###Statistical operations
+data = np.array([3,5,7,9,11,13])
+print(f"Mean:{np.mean(data)}")
+print(f"Median:{np.median(data)}")
+print(f"Standard deviation:{np.std(data)}")
+print(f"Variance:{np.var(data)}")
+print(f"Minimum:{np.min(data)}")
+print(f"Maximum:{np.max(data)}")    
+print(f"Sum: {np.sum(data)}")
+print(f"Product:{np.prod(data)}")
+print(f"Length:{np.size(data)}")
+print(f"Average calulation :{np.sum(data)/np.size(data)}")
+
+### Array indexing and slicing
+arr = np.array([[2,4,6],[8, 10, 12],[14, 16, 18]])
+print(arr)
+
+print(f"First row: {arr[0]}")
+print(f"Second row: {arr[1]}")
+print(f"Third row: {arr[2,0]}")
+print(f"Last element: {arr[-1, -2]}")
